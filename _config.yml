@@ -3,13 +3,14 @@ markdown: redcarpet
 highlighter: pygments
 gems:
   - jemoji
-  
+
 # Site settings
 title: "Sid's Software Blog"
+tagline: "Blog Tag Line"
 description: > # this means to ignore newlines until "email:"
    Software blog on C++ and other tools
 
-email: sid@sidsarasvati@gmail.com
+email: sidsarasvati@gmail.com
 #blog logo
 logo: "/assets/images/df_logo.jpg"
 # blog cover
@@ -53,3 +54,31 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
+
+# Settings for comments helper
+# Set 'provider' to the comment provider you want to use.
+# Set 'provider' to false to turn commenting off globally.
+#
+comments :
+  provider : disqus
+  disqus :
+    short_name : jekyllbootstrap
+  livefyre :
+    site_id : 123
+  intensedebate :
+    account : 123abc
+  facebook :
+    appid : 123
+    num_posts: 5
+    width: 580
+    colorscheme: light
+
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#
+analytics :
+  provider : google
+  google :
+    tracking_id : 'UA-66187024-1'
+    
